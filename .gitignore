@@ -1,0 +1,14 @@
+**/node_modules/**
+**/bower_components/**
+.sass-cache
+dist
+.tmp
+tmp
+.DS_Store
+*-bak
+bak
+npm-debug.log
+.npmignore
+maps
+gzip
+runtime-namespace.js

@@ -1,0 +1,29 @@
+{
+  "name": "client-app",
+  "version": "0.0.0",
+  "description": "app",
+  "main": "public/index.html",
+  "author": "markuz brasil",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh ./node_modules/tau-build/etc/build.sh assets:runtime",
+    "dev": "sh ./node_modules/tau-build/etc/dev.sh watch build:commonjs"
+  },
+  "dependencies": {
+    "bootstrap": ">=3.2.0",
+    "co": ">=3.1.0",
+    "di": "git://github.com/markuz-brasil/di-commonjs",
+    "es6-shim": "^0.21.0",
+    "famous": "git://github.com/markuz-brasil/famous-commonjs",
+    "less": ">=1.7.5",
+    "react": ">=0.11.2",
+    "regenerator": "^0.7.8",
+    "setimmediate": "^1.0.2",
+    "tau-build": "git://github.com/markuz-brasil/tau-build",
+    "zone.js": "git://github.com/angular/zone.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}
