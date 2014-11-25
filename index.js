@@ -16,4 +16,4 @@ React.lib = {
   ReactTransitionChildMapping: ReactTransitionChildMapping,
 }
 
-export { DI, Famous, React}
+export { di, Famous, React}
