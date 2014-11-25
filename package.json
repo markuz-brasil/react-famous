@@ -5,7 +5,7 @@
   "author": "markuz brasil",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sh ./node_modules/tau-build/etc/build.sh assets:runtime",
+    "build": "sh ./node_modules/tau-build/etc/build.sh assets",
     "dev": "sh ./node_modules/tau-build/etc/dev.sh watch build:commonjs",
     "postinstall": "npm run build"
   },
