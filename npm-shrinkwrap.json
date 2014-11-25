@@ -7,10 +7,10 @@
       "from": "bootstrap@>=3.2.0",
       "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.1.tgz"
     },
-    "co": {
-      "version": "4.0.0",
-      "from": "co@>=3.1.0",
-      "resolved": "https://registry.npmjs.org/co/-/co-4.0.0.tgz"
+    "c0": {
+      "version": "0.0.0",
+      "from": "c0@git://github.com/markuz-brasil/c0",
+      "resolved": "git://github.com/markuz-brasil/c0#5ff9ee1d7ea641705abb4d6f337d65b86f3b9900"
     },
     "di": {
       "version": "0.0.0",
@@ -19,7 +19,7 @@
     },
     "es6-shim": {
       "version": "0.21.0",
-      "from": "es6-shim@^0.21.0",
+      "from": "es6-shim@>=0.21.0",
       "resolved": "https://registry.npmjs.org/es6-shim/-/es6-shim-0.21.0.tgz"
     },
     "famous": {

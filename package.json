@@ -7,13 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sh ./node_modules/tau-build/etc/build.sh assets:runtime",
-    "dev": "sh ./node_modules/tau-build/etc/dev.sh watch build:commonjs"
+    "dev": "sh ./node_modules/tau-build/etc/dev.sh watch build:commonjs",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "bootstrap": ">=3.2.0",
-    "co": ">=3.1.0",
     "di": "git://github.com/markuz-brasil/di-commonjs",
-    "es6-shim": "^0.21.0",
+    "es6-shim": ">=0.21.0",
+    "c0": "git://github.com/markuz-brasil/c0",
     "famous": "git://github.com/markuz-brasil/famous-commonjs",
     "less": ">=1.7.5",
     "react": ">=0.11.2",
