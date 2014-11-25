@@ -11,12 +11,10 @@
     "postinstall": "npm run build"
   },
   "dependencies": {
-    "bootstrap": ">=3.2.0",
     "di": "git://github.com/markuz-brasil/di-commonjs",
     "es6-shim": ">=0.21.0",
     "c0": "git://github.com/markuz-brasil/c0",
     "famous": "git://github.com/markuz-brasil/famous-commonjs",
-    "less": ">=1.7.5",
     "react": ">=0.11.2",
     "regenerator": "^0.7.8",
     "setimmediate": "^1.0.2",
