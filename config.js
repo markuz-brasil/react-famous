@@ -4,6 +4,6 @@ module.exports = {
   sourcemaps: true,
   entry:'./index.js',
   basename: 'runtime-namespace',
-  dest: '.',
+  dest: './build',
   title: 'runtime',
 }
