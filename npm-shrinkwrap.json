@@ -35,7 +35,7 @@
                 "base62": {
                   "version": "0.1.1",
                   "from": "base62@0.1.1",
-                  "resolved": "https://registry.npmjs.org/base62/-/base62-0.1.1.tgz"
+                  "resolved": "http://127.0.0.1:5080/tarballs/base62/0.1.1.tgz"
                 },
                 "esprima-fb": {
                   "version": "7001.1.0-dev-harmony-fb",
@@ -63,7 +63,7 @@
     "regenerator": {
       "version": "0.6.7",
       "from": "regenerator@0.6.7",
-      "resolved": "https://registry.npmjs.org/regenerator/-/regenerator-0.6.7.tgz",
+      "resolved": "http://127.0.0.1:5080/tarballs/regenerator/0.6.7.tgz",
       "dependencies": {
         "commander": {
           "version": "2.3.0",
@@ -83,7 +83,7 @@
             "source-map": {
               "version": "0.1.32",
               "from": "source-map@0.1.32",
-              "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.32.tgz",
+              "resolved": "http://127.0.0.1:5080/tarballs/source-map/0.1.32.tgz",
               "dependencies": {
                 "amdefine": {
                   "version": "0.1.0",
@@ -205,7 +205,7 @@
     "tau-build": {
       "version": "0.0.0",
       "from": "tau-build@git://github.com/markuz-brasil/tau-build",
-      "resolved": "git://github.com/markuz-brasil/tau-build#3eebe2d3c33c63e6366125c80f1401a88286183b",
+      "resolved": "git://github.com/markuz-brasil/tau-build#4418a9aaa70728a2fa81b8ba9876759f909fbd1b",
       "dependencies": {
         "6to5": {
           "version": "1.9.10",
@@ -6741,6 +6741,11 @@
           }
         }
       }
+    },
+    "zone": {
+      "version": "0.0.0",
+      "from": "zone@git://github.com/markuz-brasil/zone-commonjs",
+      "resolved": "git://github.com/markuz-brasil/zone-commonjs#a620470dcf1f66074a7333888c9cf3ab21f59644"
     }
   }
 }
