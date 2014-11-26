@@ -15,4 +15,4 @@ var ReactLibHack = {
   ReactTransitionChildMapping: ReactTransitionChildMapping,
 }
 
-export { Famous, React, ReactLibHack, Zone}
+export { Famous, React, ReactLibHack}
