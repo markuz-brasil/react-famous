@@ -16,8 +16,7 @@
     "react": ">=0.11.2",
     "regenerator": "0.6.7",
     "setimmediate": ">=1.0.2",
-    "tau-build": "git://github.com/markuz-brasil/tau-build",
-    "zone": "git://github.com/markuz-brasil/zone-commonjs"
+    "tau-build": "git://github.com/markuz-brasil/tau-build"
 
   },
   "engines": {
