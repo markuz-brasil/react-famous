@@ -2,6 +2,8 @@ import 'setimmediate'
 import 'es6-shim'
 import 'regenerator/runtime'
 
+import * as Zone from 'zone'
+
 import * as React from 'react/addons'
 import * as PropTypes from 'react/lib/ReactPropTypes'
 import * as CSSPropertyOperations from 'react/lib/CSSPropertyOperations'
@@ -9,10 +11,10 @@ import * as ReactTransitionChildMapping from 'react/lib/ReactTransitionChildMapp
 
 import * as Famous from 'famous'
 
-React.lib = {
+var ReactLibHack = {
   PropTypes: PropTypes,
   CSSPropertyOperations: CSSPropertyOperations,
   ReactTransitionChildMapping: ReactTransitionChildMapping,
 }
 
-export { Famous, React}
+export { Famous, React, ReactLibHack, Zone}

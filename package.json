@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sh ./node_modules/tau-build/etc/build.sh assets",
     "dev": "./node_modules/tau-build/node_modules/.bin/pm2 --name runtime start ./node_modules/tau-build/etc/build.sh -- watch assets; pm2 logs runtime",
-    "stop": "./node_modules/tau-build/node_modules/.bin/pm2 delete runtime; ./node_modules/tau-build/node_modules/.bin/pm2 flush",
+    "flush": "./node_modules/tau-build/node_modules/.bin/pm2 delete runtime; ./node_modules/tau-build/node_modules/.bin/pm2 flush",
     "postinstall": "npm run build"
   },
   "dependencies": {
@@ -16,7 +16,9 @@
     "react": ">=0.11.2",
     "regenerator": "0.6.7",
     "setimmediate": ">=1.0.2",
-    "tau-build": "git://github.com/markuz-brasil/tau-build"
+    "tau-build": "git://github.com/markuz-brasil/tau-build",
+    "zone": "git://github.com/markuz-brasil/zone-commonjs"
+
   },
   "engines": {
     "node": ">=0.10.0"
