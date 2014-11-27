@@ -1,5 +1,5 @@
 module.exports = {
-  standalone: 'BundleNamespace.runtime',
+  standalone: 'ReactFamousRuntime',
   sourcemaps: true,
   entry:'./index.js',
   basename: 'runtime-namespace',
