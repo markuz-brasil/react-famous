@@ -6,6 +6,6 @@ import * as ReactTransitionChildMapping from 'react/lib/ReactTransitionChildMapp
 
 import * as Famous from 'famous'
 
-export { Famous, React}
 export { Mixin } from './src/mixin'
 export { DOM } from './src/DOM'
+export { Famous, React}

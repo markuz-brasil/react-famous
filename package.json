@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "famous": "git://github.com/markuz-brasil/famous-commonjs",
-    "object-assign": "^2.0.0",
+    "object-assign": ">=2.0.0",
     "react": ">=0.11.2",
     "tau-build": "git://github.com/markuz-brasil/tau-build"
   },

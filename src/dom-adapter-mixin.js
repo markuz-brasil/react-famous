@@ -1,6 +1,7 @@
 'use strict';
 
 import * as assign from 'object-assign'
+
 import * as PropTypes from 'react/lib/ReactPropTypes'
 import * as ReactTransitionChildMapping from 'react/lib/ReactTransitionChildMapping'
 

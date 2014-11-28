@@ -8,12 +8,13 @@ import * as CSSPropertyOperations from 'react/lib/CSSPropertyOperations'
 import * as Engine from 'famous/core/Engine'
 import * as Transform from 'famous/core/Transform'
 
+import DOMAdapterMixin from './dom-adapter-mixin'
+
 import getStyleUpdates from './util/getStyleUpdates'
 import cloneStyle from './util/cloneStyle'
 import createFamous from './util/createFamous'
 import applyPropsToModifer from './util/applyPropsToModifer'
 import propSugar from './util/propSugar'
-import DOMAdapterMixin from './dom-adapter-mixin'
 
 var defaultState = {
   transform: Transform.identity,
